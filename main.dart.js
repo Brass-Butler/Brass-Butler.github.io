@@ -16191,7 +16191,7 @@ this.c=null},
 j0:function j0(a,b){this.c=a
 this.a=b},
 xh:function xh(a){this.a=a},
-a8Z(){return A.i6(A.b([B.Dh,A.eB(A.a2z("../../images/transparent_logo_small.png"),50,null),B.Dg,B.Di],t.p),B.B,B.ac,B.A)},
+a8Z(){return A.i6(A.b([B.Dh,A.eB(A.a2z("images/transparent_logo_small.png"),50,null),B.Dg,B.Di],t.p),B.B,B.ac,B.A)},
 ew:function ew(a,b){this.c=a
 this.a=b},
 zW:function zW(a,b){this.c=a
@@ -52866,7 +52866,7 @@ G(a,b){var s=null
 return A.e5(this.c,s,s,B.F_,s,s)}}
 A.xh.prototype={
 G(a,b){var s=null,r=t.p
-return A.cN(s,new A.bB(B.kF,A.i6(A.b([A.i6(A.b([B.rT,A.eB(A.a2z("../../images/transparent_logo.png"),100,s)],r),B.B,B.ac,B.A),A.d7(B.yx,B.el,B.ac,B.A),A.i6(A.b([A.d7(B.ye,B.el,B.ac,B.A),B.rT],r),B.B,B.ac,B.A)],r),B.B,B.du,B.A),s),B.vz,s,s,s,s,s)}}
+return A.cN(s,new A.bB(B.kF,A.i6(A.b([A.i6(A.b([B.rT,A.eB(A.a2z("images/transparent_logo.png"),100,s)],r),B.B,B.ac,B.A),A.d7(B.yx,B.el,B.ac,B.A),A.i6(A.b([A.d7(B.ye,B.el,B.ac,B.A),B.rT],r),B.B,B.ac,B.A)],r),B.B,B.du,B.A),s),B.vz,s,s,s,s,s)}}
 A.ew.prototype={
 G(a,b){var s=null
 return A.a6U(A.e5(this.c,s,s,B.EL,s,s))}}
@@ -52935,7 +52935,7 @@ q=A.iJ(A.e5("Weekly subscription. Cancel any time.",m,m,B.jH.D7(20,B.a1),B.bn,m)
 p=A.a2S(m,m,B.cQ,m,8,m,m,m,m,m,m,B.i,m,B.rp,B.k2,m,m,m,m)
 o=t.p
 n=new A.Yu()
-return A.Ws(A.b([A.tD(B.H,A.b([j,A.lT(A.cN(m,new A.CZ(A.b([B.v3,B.Dk,r,B.rU,q,B.rU,A.iJ(A.a60(new A.bB(B.kG,A.e5("Join Waitlist",m,m,B.t7.h2(B.i),m,m),m),new A.Ys(),p),m,m)],o),m),m,new A.cM(l,m,s,m,m,m,B.a7),450,m,B.kH,i),B.S,8)],o),B.bV),A.cN(m,A.iJ(A.d7(A.b([B.HJ,B.bl,B.Hz,A.lT(A.cN(m,A.a2z("../../images/delivery_options.png"),m,new A.cM(m,m,A.Kt(B.m),m,m,m,B.a7),m,m,B.kH,m),m,8),B.bl,B.HF,B.bl,B.HH],o),B.B,B.ad,B.A),m,m),m,B.u2,m,m,B.wp,m),B.jD,A.iJ(A.d7(A.b([n.$2$info$tagline("We learn your preferences and bring you new dishes every day.\nNever worry about food again!","Let Us Be Your Personal Chef"),B.bl,n.$2$info$tagline("There are thousands of restaurants around you.\nWhy ever eat the same thing twice?","Discover Local Restaurants"),B.bl,n.$2$info$tagline("How much is your time worth?\nNever cook again unless you want to!","Save Hundreds of Hours a Year")],o),B.B,B.ad,B.A),m,m),B.jD,A.cN(B.H,A.a60(B.Bh,new A.Yt(),A.a2S(m,m,B.cR,m,8,m,m,m,m,m,m,B.i,m,B.rp,B.tQ,m,m,m,m)),B.cQ,m,m,m,B.kF,m)],o),b,!0)}}
+return A.Ws(A.b([A.tD(B.H,A.b([j,A.lT(A.cN(m,new A.CZ(A.b([B.v3,B.Dk,r,B.rU,q,B.rU,A.iJ(A.a60(new A.bB(B.kG,A.e5("Join Waitlist",m,m,B.t7.h2(B.i),m,m),m),new A.Ys(),p),m,m)],o),m),m,new A.cM(l,m,s,m,m,m,B.a7),450,m,B.kH,i),B.S,8)],o),B.bV),A.cN(m,A.iJ(A.d7(A.b([B.HJ,B.bl,B.Hz,A.lT(A.cN(m,A.a2z("images/delivery_options.png"),m,new A.cM(m,m,A.Kt(B.m),m,m,m,B.a7),m,m,B.kH,m),m,8),B.bl,B.HF,B.bl,B.HH],o),B.B,B.ad,B.A),m,m),m,B.u2,m,m,B.wp,m),B.jD,A.iJ(A.d7(A.b([n.$2$info$tagline("We learn your preferences and bring you new dishes every day.\nNever worry about food again!","Let Us Be Your Personal Chef"),B.bl,n.$2$info$tagline("There are thousands of restaurants around you.\nWhy ever eat the same thing twice?","Discover Local Restaurants"),B.bl,n.$2$info$tagline("How much is your time worth?\nNever cook again unless you want to!","Save Hundreds of Hours a Year")],o),B.B,B.ad,B.A),m,m),B.jD,A.cN(B.H,A.a60(B.Bh,new A.Yt(),A.a2S(m,m,B.cR,m,8,m,m,m,m,m,m,B.i,m,B.rp,B.tQ,m,m,m,m)),B.cQ,m,m,m,B.kF,m)],o),b,!0)}}
 A.Ys.prototype={
 $0(){},
 $S:0}
@@ -54587,7 +54587,7 @@ B.tB=new A.jM(0,"resumed")
 B.tC=new A.jM(1,"inactive")
 B.tD=new A.jM(2,"paused")
 B.tE=new A.jM(3,"detached")
-B.bZ=new A.lM("../../images/food.jpg",null,null)
+B.bZ=new A.lM("images/food.jpg",null,null)
 B.E=new A.jO(0,"up")
 B.a0=new A.jO(1,"right")
 B.F=new A.jO(2,"down")
