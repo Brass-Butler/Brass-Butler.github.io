@@ -17592,7 +17592,7 @@ Di:function Di(a,b){this.c=a
 this.a=b},
 Ap:function Ap(a){this.a=a},
 afk(){var s=null
-return A.fR(A.a([B.ts,A.dA(A.o7("assets/images/logo/56x42.png",s,s,s),42,s),B.ts,B.Kc],t.p),B.v,B.I,B.t)},
+return A.fR(A.a([B.ts,A.dA(A.o7("images/logo/56x42.png",s,s,s),42,s),B.ts,B.Kc],t.p),B.v,B.I,B.t)},
 fc:function fc(a,b){this.c=a
 this.a=b},
 Dw:function Dw(a,b){this.c=a
@@ -18429,7 +18429,7 @@ r_(a){var s
 if(A.a8z(a).gFZ())return A.LH(B.eZ,a,B.P,!1)
 s=this.gPz()
 if(s==null)s=""
-return A.LH(B.eZ,s+("assets/"+a),B.P,!1)},
+return A.LH(B.eZ,s+(""+a),B.P,!1)},
 cG(a,b){return this.a0o(0,b)},
 a0o(a,b){var s=0,r=A.a2(t.V4),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f,e
 var $async$cG=A.a3(function(c,d){if(c===1){o=d
@@ -57677,16 +57677,16 @@ A.Gt.prototype={
 G7(a,b){var s=null
 return A.bx(s,A.cp(A.a([A.fi(b,s,s,B.dZ,B.c2,s),B.yj,A.fi(a,s,s,B.e_,B.c2,s)],t.p),B.ex,B.I,B.t),s,B.ei,s,s,s,s,s)},
 I(a,b){var s=null,r=t.p
-return A.a8A(A.a([new A.d5(B.yE,A.cp(A.a([B.b9,this.G7("My name is Matt, and I started Brass Butler because I was tired of spending hours every day on food. Cooking took too long, and delivery services charged too much. I wanted something that was simultaneously convenient, cheap, and tasty.\n\nWe started Brass Butler with the goal of rebuilding our food infrastructure from the ground up. By ditching the commonly used single-delivery model, we can treat feeding the community as a logistics problem. By using efficient recommendation, scheduling, and routing algorithms to deliver fresh food in bulk, we can bring the way we eat into the 21st century.\n\nOur ultimate goal is to make food delivery cheaper than cooking at home by setting up the infrastructure to make $8 and $4 deliveries possible. Join us on our journey as we change soceity's relationship to food.","About Us"),B.b9,this.G7("We operate on a subscription model. You tell us what food you like, and we figure out what to bring you for breakfast, lunch, and dinner.","How It Works"),B.b9,B.Ka,B.dU,A.bx(s,A.o7("assets/images/delivery_options.png",s,s,s),s,B.ux,s,s,s,s,s),B.b9,B.Kj,B.dU,A.bx(s,A.o7("assets/images/map.png",s,s,s),s,B.uy,s,s,s,s,s),B.b9,B.Kb,B.dU,A.bx(s,A.o7("assets/images/rating.png",s,s,s),s,B.uz,s,s,s,s,s)],r),B.v,B.at,B.t),s)],r),b)}}
+return A.a8A(A.a([new A.d5(B.yE,A.cp(A.a([B.b9,this.G7("My name is Matt, and I started Brass Butler because I was tired of spending hours every day on food. Cooking took too long, and delivery services charged too much. I wanted something that was simultaneously convenient, cheap, and tasty.\n\nWe started Brass Butler with the goal of rebuilding our food infrastructure from the ground up. By ditching the commonly used single-delivery model, we can treat feeding the community as a logistics problem. By using efficient recommendation, scheduling, and routing algorithms to deliver fresh food in bulk, we can bring the way we eat into the 21st century.\n\nOur ultimate goal is to make food delivery cheaper than cooking at home by setting up the infrastructure to make $8 and $4 deliveries possible. Join us on our journey as we change soceity's relationship to food.","About Us"),B.b9,this.G7("We operate on a subscription model. You tell us what food you like, and we figure out what to bring you for breakfast, lunch, and dinner.","How It Works"),B.b9,B.Ka,B.dU,A.bx(s,A.o7("images/delivery_options.png",s,s,s),s,B.ux,s,s,s,s,s),B.b9,B.Kj,B.dU,A.bx(s,A.o7("images/map.png",s,s,s),s,B.uy,s,s,s,s,s),B.b9,B.Kb,B.dU,A.bx(s,A.o7("images/rating.png",s,s,s),s,B.uz,s,s,s,s,s)],r),B.v,B.at,B.t),s)],r),b)}}
 A.iK.prototype={
 I(a,b){var s=null
 return A.fi(this.c,s,s,B.dY,s,s)}}
 A.BF.prototype={
 I(a,b){var s=null,r=t.p
-return A.bx(s,new A.d5(B.la,A.fR(A.a([A.fR(A.a([B.tt,A.dA(A.o7("assets/images/logo/96x72.png",s,s,s),72,s)],r),B.v,B.I,B.t),A.cp(A.a([B.Kd,B.lA,new A.iK(""+this.c+" \xa9 Brass Butler",s)],r),B.d4,B.I,B.t),A.fR(A.a([A.cp(B.AJ,B.kY,B.I,B.t),B.tt],r),B.v,B.I,B.t)],r),B.v,B.cs,B.t),s),B.a7,s,s,s,s,s,s)}}
+return A.bx(s,new A.d5(B.la,A.fR(A.a([A.fR(A.a([B.tt,A.dA(A.o7("images/logo/96x72.png",s,s,s),72,s)],r),B.v,B.I,B.t),A.cp(A.a([B.Kd,B.lA,new A.iK(""+this.c+" \xa9 Brass Butler",s)],r),B.d4,B.I,B.t),A.fR(A.a([A.cp(B.AJ,B.kY,B.I,B.t),B.tt],r),B.v,B.I,B.t)],r),B.v,B.cs,B.t),s),B.a7,s,s,s,s,s,s)}}
 A.Di.prototype={
 I(a,b){var s=null
-return A.bx(s,A.l7(A.cp(A.a([B.tu,A.dA(A.o7("assets/images/logo/96x72.png",s,s,s),72,s),B.cN,B.lB,B.ly,B.lz,B.cN,B.lA,new A.iK(""+this.c+" \xa9 Brass Butler",s),B.tu],t.p),B.v,B.cs,B.t),s,s),B.a7,s,s,s,s,B.la,s)}}
+return A.bx(s,A.l7(A.cp(A.a([B.tu,A.dA(A.o7("images/logo/96x72.png",s,s,s),72,s),B.cN,B.lB,B.ly,B.lz,B.cN,B.lA,new A.iK(""+this.c+" \xa9 Brass Butler",s),B.tu],t.p),B.v,B.cs,B.t),s,s),B.a7,s,s,s,s,B.la,s)}}
 A.Ap.prototype={
 I(a,b){return b.V(t.w).f.a.a>500?new A.BF(A.a8c(new A.d3(Date.now(),!1)),null):new A.Di(A.a8c(new A.d3(Date.now(),!1)),null)}}
 A.fc.prototype={
@@ -60297,14 +60297,14 @@ B.p=new A.h0(1,"ltr")
 B.AF=A.a(s([B.Z,B.p]),A.U("q<h0>"))
 B.lK=A.a(s([B.eN,B.dc,B.df,B.eS,B.eW,B.dm,B.lx,B.eX,B.aq,B.dn,B.bk,B.ch,B.bP,B.dd,B.ci,B.eO,B.b7,B.de,B.eP,B.lv,B.af,B.dg,B.cj,B.ck,B.eQ,B.dh,B.eR,B.di,B.lw,B.dj,B.eT,B.dk,B.cl,B.cm,B.eU,B.eV,B.dl]),A.U("q<aW>"))
 B.AJ=A.a(s([B.lB,B.ly,B.lz]),t.p)
-B.vL=new A.eo("You're Busy - Let Us Take Care of You","Breakfast, lunch, and dinner delivered at the same time every day.","assets/images/waiter.jpg")
-B.vH=new A.eo("We Know What You Want for Dinner","Our recommendation systems use your preferences, ratings, and recent deliveries to bring you meals that match your tastes.","assets/images/tasy_meal.jpg")
-B.vJ=new A.eo("$12 Per Meal, Period","No delivery fees. Pay less than in-restaurant prices.","assets/images/free_delivery.jpg")
-B.vM=new A.eo("Never Eat the Same Meal Twice","We focus on unique foods and will bring you something new every time.","assets/images/spices_map.jpg")
-B.vN=new A.eo("Save Hundreds of Hours a Year","How much is your time worth? Never cook or wait for delivery again!","assets/images/time.jpg")
-B.vG=new A.eo("A Perfectly Balanced Diet","Calorie counting? Dietary restrictions? We've got you covered.","assets/images/balanced_diet.jpg")
-B.vK=new A.eo("Support Local Restaurants","Fresh local food only. No chains.","assets/images/local_restaurant.jpg")
-B.vI=new A.eo("Join Our Community!","We want to transform society's relationship to food. Our ultimate goal is to make delivery cheaper than cooking at home. Click to learn more, or to join our waitlist.","assets/images/flour_and_ingredients.jpg")
+B.vL=new A.eo("You're Busy - Let Us Take Care of You","Breakfast, lunch, and dinner delivered at the same time every day.","images/waiter.jpg")
+B.vH=new A.eo("We Know What You Want for Dinner","Our recommendation systems use your preferences, ratings, and recent deliveries to bring you meals that match your tastes.","images/tasy_meal.jpg")
+B.vJ=new A.eo("$12 Per Meal, Period","No delivery fees. Pay less than in-restaurant prices.","images/free_delivery.jpg")
+B.vM=new A.eo("Never Eat the Same Meal Twice","We focus on unique foods and will bring you something new every time.","images/spices_map.jpg")
+B.vN=new A.eo("Save Hundreds of Hours a Year","How much is your time worth? Never cook or wait for delivery again!","images/time.jpg")
+B.vG=new A.eo("A Perfectly Balanced Diet","Calorie counting? Dietary restrictions? We've got you covered.","images/balanced_diet.jpg")
+B.vK=new A.eo("Support Local Restaurants","Fresh local food only. No chains.","images/local_restaurant.jpg")
+B.vI=new A.eo("Join Our Community!","We want to transform society's relationship to food. Our ultimate goal is to make delivery cheaper than cooking at home. Click to learn more, or to join our waitlist.","images/flour_and_ingredients.jpg")
 B.lL=A.a(s([B.vL,B.vH,B.vJ,B.vM,B.vN,B.vG,B.vK,B.vI]),A.U("q<eo>"))
 B.AL=A.a(s(["click","scroll"]),t.s)
 B.AN=A.a(s(["HEAD","AREA","BASE","BASEFONT","BR","COL","COLGROUP","EMBED","FRAME","FRAMESET","HR","IMAGE","IMG","INPUT","ISINDEX","LINK","META","PARAM","SOURCE","STYLE","TITLE","WBR"]),t.s)
