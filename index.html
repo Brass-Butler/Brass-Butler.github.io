@@ -1,82 +1,107 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+    <head>
+        <!--
+            If you are serving your web app in a path other than the root, change the
+            href value below to reflect the base path you are serving from.
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+            The path provided below has to start and end with a slash "/" in order for
+            it to work correctly.
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+            For more details:
+            * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
+            This is a placeholder for base href that will be replaced by the value of
+            the `--base-href` argument provided to `flutter build`.
+        -->
+        <base href="/">
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+        <meta charset="UTF-8">
+        <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+        <meta name="description" content="Brass Butler - Let us serve you.">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="waitlist_website">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+        <!-- iOS meta tags & icons -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="waitlist_website">
+        <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>waitlist_website</title>
-  <link rel="manifest" href="manifest.json">
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="styles.css">
 
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3542997065';
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
-</head>
-<body>
-  <div id="loading"></div>
-  <script>
-    function preloadImages(array) {
-      if (!preloadImages.list) {
-        preloadImages.list = [];
-      }
-      var list = preloadImages.list;
-      for (var i = 0; i < array.length; i++) {
-        var img = new Image();
-        img.onload = function() {
-          var index = list.indexOf(this);
-          if (index !== -1) {
-            list.splice(index, 1);
-          }
-        }
-        list.push(img);
-        img.src = array[i];
-      }
-    }
+        <title>waitlist_website</title>
+        <link rel="manifest" href="manifest.json">
 
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      var loading = document.querySelector('#loading');
-      loading.textContent = "Loading entrypoint...";
-      preloadImages(["images/food.jpg", "images/transparent_logo.png", "images/transparent_logo_small.png"]);
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function(engineInitializer) {
-        loading.textContent = "Initializing engine...";
-        return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
-        loading.textContent = "Running app...";
-        return appRunner.runApp();
-      });
-    });
-  </script>
-</body>
+        <script>
+            // The value below is injected by flutter build, do not touch.
+            var serviceWorkerVersion = '1367200328';
+        </script>
+        <!-- This script adds the flutter initialization JS code -->
+        <script src="flutter.js" defer></script>
+    </head>
+    <body>
+        <div class="column">
+            <img width="150" src="images/logo/logo.png" />
+            <div class="titleText" style="color:#CEA37D;font-size:28px;font-family:Skia">
+                BRASS BUTLER
+            </div>
+            <div id="loadingText" style="color:#FFFFFF;font-size:16px;font-family:skia"></div>
+        </div>
+        <script>
+            function preloadImages(array) {
+                if (!preloadImages.list) {
+                    preloadImages.list = [];
+                }
+                var list = preloadImages.list;
+                for (var i = 0; i < array.length; i++) {
+                    var img = new Image();
+                    img.onload = function() {
+                        var index = list.indexOf(this);
+                        if (index !== -1) {
+                            list.splice(index, 1);
+                        }
+                    }
+                    list.push(img);
+                    img.src = array[i];
+                }
+            }
+
+            window.addEventListener('load', function(ev) {
+                // Download main.dart.js
+                var loading = document.getElementById('loadingText');
+                var textValue = document.createTextNode("");
+                loading.appendChild(textValue);
+                textValue.nodeValue = "Loading Images...";
+                preloadImages([
+                    "images/logo/56x42.png",
+                    "images/logo/96x72.png",
+                    "images/balanced_diet.jpg",
+                    "images/delivery_options.png",
+                    "images/flour_and_ingredients.jpg",
+                    "images/free_delivery.jpg",
+                    "images/local_restaurant.jpg",
+                    "images/map.png",
+                    "images/rating.png",
+                    "images/spices_map.jpg",
+                    "images/tasy_meal.jpg",
+                    "images/time.jpg",
+                    "images/waiter.jpg",
+                ]);
+                _flutter.loader.loadEntrypoint({
+                    serviceWorker: {
+                        serviceWorkerVersion: serviceWorkerVersion,
+                    }
+                }).then(function(engineInitializer) {
+                    textValue.nodeValue = "Initializing Engine...";
+                    return engineInitializer.initializeEngine();
+                }).then(function(appRunner) {
+                    textValue.nodeValue = "Starting Website...";
+                    return appRunner.runApp();
+                });
+            });
+        </script>
+    </body>
 </html>

@@ -1,0 +1,23 @@
+html,
+body {
+    background-color: #233030
+}
+
+.titleText {
+    padding: 10px 10px 10px 10px;
+}
+
+.column {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+
+@font-face {
+    font-family: Skia;
+    src: url('fonts/Skia.ttf');
+}
