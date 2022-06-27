@@ -58031,7 +58031,7 @@ p.toString
 A.asU(new A.nl(q.c,null,null),p)}},
 $S:2}
 A.a1k.prototype={
-$1(a){var s=null,r=a.gct(a),q=a.gn(a),p=A.tJ(q.c,B.ux,1/0,1/0),o=A.oP(-1,A.bC(s,s,s,s,B.uw,s,s,s,s),400,s,-1,-1,s,s),n=t.p,m=A.oP(18,A.cm(A.a([A.fi(q.a,s,s,B.J3,s,s),B.dU,A.fi(q.b,s,s,B.I5,s,s)],n),B.d5,B.I,B.t),s,s,50,50,s,s),l=this.a,k=A.anN(new A.eU(B.ab,s,s,A.cm(A.a([A.a6o(new A.a1h(l),"Learn More"),B.dV,A.a6o(new A.a1i(l),"Sign Up")],n),B.v,B.as,B.t),s))
+$1(a){var s=null,r=a.gct(a),q=a.gn(a),p=A.tJ(q.c,B.ux,1/0,1/0),o=A.oP(0,A.bC(s,s,s,s,B.uw,s,s,s,s),400,s,0,0,s,s),n=t.p,m=A.oP(18,A.cm(A.a([A.fi(q.a,s,s,B.J3,s,s),B.dU,A.fi(q.b,s,s,B.I5,s,s)],n),B.d5,B.I,B.t),s,s,50,50,s,s),l=this.a,k=A.anN(new A.eU(B.ab,s,s,A.cm(A.a([A.a6o(new A.a1h(l),"Learn More"),B.dV,A.a6o(new A.a1i(l),"Sign Up")],n),B.v,B.as,B.t),s))
 return r===7?A.mq(B.aZ,A.a([p,o,m,k],n),B.b9):A.mq(B.aZ,A.a([p,o,m],n),B.b9)},
 $S:374}
 A.a1h.prototype={
@@ -58069,7 +58069,7 @@ r=A.cm(A.a([A.aoR(A.G8(A.a([A.G8(m,B.e_,l?"Current Waitlist: ":"Current Waitlist
 q=A.a([B.FR,A.e9(A.a6o(new A.a58(),"Join Waitlist"),m,200)],s)
 p=l?A.fR(q,B.v,B.as,B.t):A.cm(q,B.v,B.as,B.t)
 o=new A.a59(l?80:60)
-n=A.AH(A.bC(m,A.cm(A.a([B.dU,B.Kc,B.tr,o.$2$milestone$number("Launch limited alpha test with dinner service only.","300"),o.$2$milestone$number("Increase restaurant variety (no repeats within a month).","600"),o.$2$milestone$number("Launch recommendation engine.","1k"),o.$2$milestone$number("Offer lunch service. Allow adjustable delivery times","2k"),o.$2$milestone$number("Launch beta test. Allow some meal customization.","3k"),o.$2$milestone$number("Offer vegetarian options.","4k"),o.$2$milestone$number("Offer diet and meal planning options.","5k"),o.$2$milestone$number("Never have a repeat meal delivery.","10k"),o.$2$milestone$number("Introduce $8 tier.","20k")],s),B.v,B.as,B.t),B.aN,m,m,m,m,B.yu,m),8)
+n=A.AH(A.bC(m,A.cm(A.a([B.dU,B.Kc,B.tr,o.$2$milestone$number("Launch limited alpha test with dinner service only.","300"),o.$2$milestone$number("Increase restaurant variety (no repeats within a month).","600"),o.$2$milestone$number("Launch recommendation engine.","1k"),o.$2$milestone$number("Offer lunch service. Allow adjustable delivery times.","2k"),o.$2$milestone$number("Launch beta test. Allow some meal customization.","3k"),o.$2$milestone$number("Offer vegetarian options.","4k"),o.$2$milestone$number("Offer diet and meal planning options.","5k"),o.$2$milestone$number("Never have a repeat meal delivery.","10k"),o.$2$milestone$number("Introduce $8 tier.","20k")],s),B.v,B.as,B.t),B.aN,m,m,m,m,B.yu,m),8)
 return A.a90(A.a([A.bC(m,A.cm(A.a([B.b8,k,B.b8,A.cm(A.a([r,B.dU,p],s),B.v,B.as,B.t),B.b8,n],s),B.v,B.I,B.t),m,B.ei,m,m,m,B.la,m)],s),b)}}
 A.a58.prototype={
 $0(){},
