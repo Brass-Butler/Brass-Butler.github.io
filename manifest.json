@@ -1,11 +1,11 @@
 {
-    "name": "waitlist_website",
-    "short_name": "waitlist_website",
+    "name": "Brass Butler",
+    "short_name": "Brass Butler",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#CEA37D",
+    "theme_color": "#CEA37D",
+    "description": "Brass Butler brings you new dishes from local restaurants for $12 a meal. Get scheduled breakfast, lunch, and/or dinner delivered every day.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
