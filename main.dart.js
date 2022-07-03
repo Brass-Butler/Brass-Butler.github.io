@@ -40289,7 +40289,7 @@ A.a4O.prototype={
 $1(a){var s,r=null,q=this.a,p=q.a,o=p.c[a]
 if(t.ZQ.b(o))if(p.ga1X()&&o.gl5().b===46){p=q.a
 p=p.ay
-s=p.F(0,B.yu)}else s=r
+s=p.F(0,B.yt)}else s=r
 else s=r
 p=s==null?q.a.ay:s
 o=J.aJ(A.b(q.x,"_tabKeys"),a)
@@ -58029,7 +58029,7 @@ l=A.br(o,A.a84(A.ec("Sign Up",o,o,B.Jb,o,o),new A.a1g(p),l),B.U,o,o,o,o,o,o)
 s=A.b(p.f,"slides")
 s=new A.iM(s,A.az(s).i("iM<1>"))
 r=t.p
-q=A.br(o,A.cf(A.a([l,B.cQ,A.fR(s.gdB(s).eK(0,new A.a1h(p),t.tL).dm(0),B.v,B.at,B.t)],r),B.v,B.at,B.t),B.U,o,o,o,o,B.yt,o)
+q=A.br(o,A.cf(A.a([l,B.cQ,A.fR(s.gdB(s).eK(0,new A.a1h(p),t.tL).dm(0),B.v,B.at,B.t)],r),B.v,B.at,B.t),B.U,o,o,o,o,B.yu,o)
 return A.cf(A.a([A.a87(new A.rB(new A.OB(1/0,1,!0,B.yi,B.yr,!1,new A.a1i(p),B.kG),n,p.e,m,o)),q],r),B.v,B.H,B.t)}}
 A.a1l.prototype={
 $1(a){var s,r,q,p
@@ -58039,7 +58039,7 @@ p.toString
 A.asV(new A.nk(q.c,null,null),p)}},
 $S:2}
 A.a1m.prototype={
-$1(a){var s=null,r=a.gcj(a),q=a.gn(a),p=A.tI(q.c,B.uz,1/0,1/0),o=A.Eo(0,A.br(s,s,s,s,B.uy,s,s,s,s),400,s,0,0,s,s),n=t.p,m=A.Eo(18,A.cf(A.a([A.ec(q.a,s,s,B.IV,s,s),B.jU,A.ec(q.b,s,s,B.HY,s,s)],n),B.da,B.H,B.t),s,s,50,50,s,s),l=this.a,k=A.anP(new A.eV(B.ab,s,s,A.cf(A.a([A.a6q(new A.a1j(l),"Learn More"),B.cQ,A.a6q(new A.a1k(l),"Sign Up")],n),B.v,B.at,B.t),s))
+$1(a){var s=null,r=a.gcj(a),q=a.gn(a),p=A.tI(q.c,B.uz,1/0,1/0),o=A.Eo(0,A.br(s,s,s,s,B.uy,s,s,s,s),400,s,0,0,s,s),n=t.p,m=A.Eo(0,A.cf(A.a([A.ec(q.a,s,s,B.IV,s,s),B.jU,A.ec(q.b,s,s,B.HY,s,s)],n),B.da,B.H,B.t),s,s,50,50,s,s),l=this.a,k=A.anP(new A.eV(B.ab,s,s,A.cf(A.a([A.a6q(new A.a1j(l),"Learn More"),B.cQ,A.a6q(new A.a1k(l),"Sign Up")],n),B.v,B.at,B.t),s))
 return r===7?A.pz(B.bb,A.a([p,o,m,k],n),B.br):A.pz(B.bb,A.a([p,o,m],n),B.br)},
 $S:374}
 A.a1j.prototype={
@@ -60396,8 +60396,8 @@ B.yr=new A.aF(8e5)
 B.ys=new A.aF(-38e3)
 B.ad=new A.aK(0,0,0,0)
 B.MM=new A.aK(0,0,0,10)
-B.yt=new A.aK(0,0,0,16)
-B.yu=new A.aK(0,13,0,13)
+B.yt=new A.aK(0,13,0,13)
+B.yu=new A.aK(0,24,0,24)
 B.lb=new A.aK(0,32,0,32)
 B.yv=new A.aK(12,0,12,0)
 B.lc=new A.aK(15,15,15,15)
