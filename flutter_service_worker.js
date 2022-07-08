@@ -4,10 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "ae44cfba99f99e1e9abe262f52af9818",
-"index.html": "fce3695ff39ff0384ff2e978b87284d4",
-"/": "fce3695ff39ff0384ff2e978b87284d4",
+"index.html": "29f68b496b28cf552dec6ad818f046da",
+"/": "29f68b496b28cf552dec6ad818f046da",
 "styles.css": "8bdeefb87ca882d8f48f712db15f3adf",
-"main.dart.js": "44a26c4823b11bc6fc21614e7b0b6e60",
+"main.dart.js": "ef45bdc4936ac153c5305d1029e8dec8",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "favicon.png": "faf5d90a9f58c162fa45f59f5acd8437",
 "icons/Icon-192.png": "4675a24bab7248b88be6532c906f8e55",
@@ -25,7 +25,7 @@ const RESOURCES = {
 "assets/images/time.webp": "6ccd5af95060687590bd8b99f0eb0d4b",
 "assets/images/logo/56x42.png": "04f7da4aca868da9b633c7a20710a411",
 "assets/images/logo/96x72.png": "fabc7b8225f3932f4d105f569cff19f9",
-"assets/images/logo/logo.png": "044cd2949115b26df73addff8f657436",
+"assets/images/logo/logo.png": "579acc70ef2c09cbecb70073b7da2845",
 "assets/images/rating.webp": "0436d4cd7bfe0f42ff9e6757e79896c6",
 "assets/images/flour_and_ingredients.webp": "3a990e6ef5bc5780d2e3dd3df37f3092",
 "assets/images/free_delivery.webp": "a176309e2f7eb51bfbb526b264c071ff",
