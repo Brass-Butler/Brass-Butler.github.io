@@ -4,10 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "ae44cfba99f99e1e9abe262f52af9818",
-"index.html": "fe620c69f671b8e98e60d684c4c7d0a3",
-"/": "fe620c69f671b8e98e60d684c4c7d0a3",
+"index.html": "fce3695ff39ff0384ff2e978b87284d4",
+"/": "fce3695ff39ff0384ff2e978b87284d4",
 "styles.css": "8bdeefb87ca882d8f48f712db15f3adf",
-"main.dart.js": "373ceafd90cb413f9c13e95cfc7ffdfe",
+"main.dart.js": "44a26c4823b11bc6fc21614e7b0b6e60",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "favicon.png": "faf5d90a9f58c162fa45f59f5acd8437",
 "icons/Icon-192.png": "4675a24bab7248b88be6532c906f8e55",
@@ -30,7 +30,7 @@ const RESOURCES = {
 "assets/images/flour_and_ingredients.webp": "3a990e6ef5bc5780d2e3dd3df37f3092",
 "assets/images/free_delivery.webp": "a176309e2f7eb51bfbb526b264c071ff",
 "assets/AssetManifest.json": "b4207103f4f330f52d3bcd0284ce3447",
-"assets/NOTICES": "07ea92a878a00857724f16099fba1135",
+"assets/NOTICES": "a710812333da0880a6462f1f95c479c8",
 "assets/FontManifest.json": "49a88492278ade95986cca88e0212068",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/fonts/Skia.ttf": "7b2932a4b94d625bcdf9a342a45e659d",
